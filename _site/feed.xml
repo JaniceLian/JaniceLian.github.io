@@ -5,13 +5,13 @@
     <description>Janice&#39;s UI</description>
     <link>http://cn.bing.com//janicelian/</link>
     <atom:link href="http://cn.bing.com//janicelian/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 03 Mar 2017 21:34:53 +0800</pubDate>
-    <lastBuildDate>Fri, 03 Mar 2017 21:34:53 +0800</lastBuildDate>
+    <pubDate>Fri, 03 Mar 2017 22:56:43 +0800</pubDate>
+    <lastBuildDate>Fri, 03 Mar 2017 22:56:43 +0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>JQuery数字上下滚动</title>
-        <description>&lt;p&gt;实现数字上下滚动动画效果。&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+        <description>&lt;p&gt;实现数字上下滚动动画效果。&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;style type=&quot;text/css&quot;&gt;
   [class*=&quot;animateNumbers&quot;] {
@@ -39,11 +39,8 @@
 &lt;/style&gt;
 
 &lt;div id=&quot;number2&quot; class=&quot;animateNumbers-thousands&quot; number=&quot;368921.57&quot;&gt;&lt;/div&gt;
-
 &lt;div id=&quot;number2&quot; class=&quot;animateNumbers-percent&quot; number=&quot;0.6708&quot;&gt;&lt;/div&gt;
-
 &lt;div id=&quot;number1&quot; class=&quot;animateNumbers&quot; number=&quot;126859.02&quot;&gt;&lt;/div&gt;
-
 &lt;p style=&quot;text-align:right; margin:20px 100px 100px 0;&quot;&gt;
   &lt;a href=&quot;javascript:void(0);&quot; onclick=&quot;RandomNum(10000000,19999999)&quot;&gt;随机切换数字&lt;/a&gt;
 &lt;/p&gt;
@@ -87,28 +84,26 @@
 
 &lt;/script&gt;
 
-&lt;h2 id=&quot;how-to-use&quot;&gt;&lt;a href=&quot;#how-to-use&quot;&gt;How to use&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;how-to-use&quot;&gt;How to use&lt;/h2&gt;
 
-&lt;h3 id=&quot;basic-use&quot;&gt;&lt;a href=&quot;#basic-use&quot;&gt;Basic use&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;basic-use&quot;&gt;Basic use&lt;/h3&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;selector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;numbersAnimate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;option&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Option&lt;/strong&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;numbers:  Number | String, the number to show, default value is 0;&lt;/li&gt;
-&lt;li&gt;duration:  int, the duration of the animate, default value is 1500;&lt;/li&gt;
-&lt;li&gt;percent:  Boolean, to show the percentage format of the number;&lt;/li&gt;
-&lt;li&gt;thousands:  Boolean, to show the thousands format of the number.&lt;/li&gt;
-&lt;/ul&gt;
+  &lt;p&gt;&lt;strong&gt;Option&lt;/strong&gt;
+* numbers:  Number | String, the number to show, default value is 0;
+* duration:  int, the duration of the animate, default value is 1500;
+* percent:  Boolean, to show the percentage format of the number;
+* thousands:  Boolean, to show the thousands format of the number.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;div style=&quot;height:40px&quot;&gt;  &lt;/div&gt;
 
-&lt;h2 id=&quot;source-code&quot;&gt;&lt;a href=&quot;#source-code&quot;&gt;Source code&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;source-code&quot;&gt;Source code&lt;/h2&gt;
 
-&lt;h3 id=&quot;numbersanimatejs&quot;&gt;&lt;a href=&quot;#numbersanimatejs&quot;&gt;numbersAnimate.js&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;numbersanimatejs&quot;&gt;numbersAnimate.js&lt;/h3&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;cm&quot;&gt;/*
  * 数字上下滚动切换
@@ -198,7 +193,7 @@
   &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;html&quot;&gt;&lt;a href=&quot;#html&quot;&gt;HTML&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;html&quot;&gt;HTML&lt;/h3&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
@@ -276,7 +271,9 @@
   &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+</description>
         <pubDate>Sat, 13 Feb 2016 04:17:08 +0800</pubDate>
         <link>http://cn.bing.com//janicelian/JQuery%E6%95%B0%E5%AD%97%E4%B8%8A%E4%B8%8B%E6%BB%9A%E5%8A%A8/</link>
         <guid isPermaLink="true">http://cn.bing.com//janicelian/JQuery%E6%95%B0%E5%AD%97%E4%B8%8A%E4%B8%8B%E6%BB%9A%E5%8A%A8/</guid>

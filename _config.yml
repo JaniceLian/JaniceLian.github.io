@@ -29,6 +29,6 @@ sass:
   sass_dir: assets/_sass
 
 # Build settings
-# markdown  : kramdown
-markdown: MarkdownProcessor
+markdown  : kramdown
+# markdown: MarkdownProcessor
 permalink : /:title/
