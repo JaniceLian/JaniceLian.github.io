@@ -99,7 +99,7 @@ $(selector).numbersAnimate(option);
 
 ### numbersAnimate.js
 
-{% highlight js %}
+```js
 /*
  * 数字上下滚动切换
  */
@@ -187,7 +187,7 @@ $.fn.numbersAnimate = function(_option) {
     }
   }
 }
-{% endhighlight %}
+```
 
 ### HTML
 
