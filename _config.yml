@@ -1,0 +1,34 @@
+# Site settings
+title: Janice's UI
+email: lianjinfei@gmail.com
+description: Janice's UI
+baseurl: "/"
+url: "http://cn.bing.com/"
+port: 8001
+
+highlighter: rouge
+
+author:
+  name     : 'Janice'
+  email    : lianjinfei@gmail.me
+  url      : https://github.com/JaniceLian
+  facebook : https://www.facebook.com/
+  twitter  : http://twitter.com/
+
+github: https://github.com/JaniceLian
+disqus_shortname: "JaniceLian"
+# google_analytics: UA-52446115-1
+
+
+paginate: 10
+comments: true
+paginate_path: "/page/:num"
+
+sass:
+  style: :compressed
+  sass_dir: assets/_sass
+
+# Build settings
+# markdown  : kramdown
+markdown: MarkdownProcessor
+permalink : /:title/
